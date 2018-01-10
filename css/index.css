@@ -1,0 +1,285 @@
+*{
+	list-style:none;
+	text-decoration:none;
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+#web_bg{
+	position:fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	height:100%;
+	z-index:-10;
+	zoom: 1;
+	background:url(../images/login_bk.png) no-repeat;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-position: center 0;
+}
+a{
+	color:#000;
+}
+.bezel{
+	width:100%;
+	height:100%;
+	color:#000;
+}
+.head{
+	width:100%;
+	height: 80px;
+	background:#3c4145;
+	background:rgba(255,255,255,0.5);
+	line-height:60px;
+	overflow:hidden;
+	border-bottom:2px #000 solid;
+}
+.head div{
+	height:100%;
+	float:left;
+	line-height:60px;
+}
+
+.hleft{
+	width:15%;
+	font:bold 15px 宋体;
+}
+
+.head-icon{
+	height:60px;
+	background:url(../images/logo-right.png) no-repeat;
+	background-position:10px 0;
+	display:block;
+	margin-top:10px;
+	padding-left:70px;
+}
+.hcenter{
+	width:40%;
+}
+.hcenter ul{
+	width: 450px;
+    height: 36px;
+    margin: 0px auto;
+    margin-top: 45px;
+}
+.hcenter li{
+	width:100px;
+	text-align:center;
+	height:36px;
+	line-height:36px;
+	float:left;
+	border:1px #000 solid;
+	display:inline;
+	cursor:pointer;
+}
+.hcenter .on{
+	background-color: #2a2525;
+	font-weight:bold;
+}
+.hright{
+	width:45%;
+}
+.hright span{
+	float:right;
+	display:inline;
+	padding-right:15px;
+}
+.outLogin{
+padding:1px 8px;
+height:25px;
+line-height:25px;
+text-align:center;
+font-size:14px;
+color:#000;
+background-color: #2a2525;
+background: rgba(0,0,0,0.4); 
+border:1px rgba(0,0,0,0.4) solid;
+cursor:pointer;
+display:inline-block;
+}
+.center{
+	width:100%;
+	height:100%;
+	clear:both;
+}
+.cleft{
+	width:15%;
+	height:100%;
+	background:#30383b;
+	background:rgba(255,255,255,0.5);
+	float:left;
+	display:inline;
+	overflow-y:auto;
+	border-right: 1px solid rgba(0,0,0,0.5);
+}
+.cleft h4{
+	text-align:center;
+	line-height:44px;
+	cursor:pointer;
+	border-bottom:1px rgba(0,0,0,0.2) solid;
+	font-size:14px;
+}
+.cleft ul{
+	font-size:13px;
+	background:#30383b;
+	background:rgba(0,0,0,0.22);
+	display:none;
+}
+.cleft ul li{
+	text-align:center;
+	border-bottom:1px #CCC solid;
+	border-bottom:1px rgba(0,0,0,0.1) solid;
+}
+
+.cleft ul li a{
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	display:block;
+}
+
+.cleft ul li.on{
+	font-size:15px;
+	border-right:4px #7dc92d solid;
+	padding-left:5px;
+	background:#30383b;
+	background:rgba(0,0,0,0.2);
+}
+
+.cleft h4.on{
+	background-color:#2a2525;
+	border-left:4px #7dc92d solid;
+	padding-right:4px;
+}
+
+.rleft{
+	width:84.5%;
+	height:100%;
+	background:#30383b;
+	background:rgba(255,255,255,0.5);
+	overflow-y:auto;
+	float:left;
+}
+
+.floot{
+clear:both;
+width:100%;
+height:5%;
+text-align:center;
+background:rgba(0,0,0,0.6);
+border-top:1px #000 solid;
+border-top:1px rgba(0,0,0,0.5) solid;
+font:bold 14px 宋体;
+height:30px;
+line-height:30px;
+}
+
+.center{
+	width:100%;
+	height:86%;
+}
+.search{
+	width:99%;
+	clear:both;
+	margin:1% 1%;
+}
+.search span{
+	margin:5px auto;
+}
+.search input{
+	height:20px;
+	line-height:20px;
+}
+#search-btn{
+	width:55px;
+	height:25px;
+	border:1px rgba(0,0,0,0.4) solid;
+	background:rgba(0,0,0,0.4);
+	color:#000;
+	cursor:pointer;
+}
+
+.topMenu ul{
+	widht:100%;
+	height:25px;
+	margin-left:5px;
+}
+.topMenu ul li{
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	border:1px rgba(0,0,0,0.4) solid;
+	background:rgba(0,0,0,0.4);	
+	margin-left:4px;
+	float:left;
+	display:inline;
+	
+}
+
+.tableMain{
+	width:100%;
+	height:85%;
+	overflow-y:auto;
+	color:#000;
+}
+
+.right-table{
+	font-size:13px;
+	margin:0px auto;
+}
+.right-table th{
+	height:35px;
+	line-height:35px;
+	background:rgba(0,0,0,0.4);
+	border:1px rgba(0,0,0,0.4) solid;
+	border-right:0px;
+	border-top:0px;
+	text-align: center;
+    padding: 0 6px;
+}
+.right-table td{
+	height:35px;
+	line-height:35px;
+	border:1px rgba(0,0,0,0.4) solid;
+	border-right:0px;
+	border-top:0px;
+	text-align: center;
+    padding: 0 6px;
+}
+#clearTDrightBorder{
+	border-right:1px rgba(0,0,0,0.4) solid;
+}
+.position{
+	width:100%;
+	height:44px;
+	line-height:44px;
+}
+
+
+#page ul{
+	width:400px;
+	height:25px;
+	margin:0px auto;
+	margin-top:10px;	
+}
+#page ul li{
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	border:1px rgba(0,0,0,0.4) solid;
+	background:rgba(0,0,0,0.4);	
+	margin-left:5px;
+	float:left;
+	display:inline;
+}
+
+
